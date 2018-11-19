@@ -3,7 +3,7 @@
 
 export ZSH="/home/mareksabo/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="nebirhos"
 
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
