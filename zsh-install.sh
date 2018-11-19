@@ -8,7 +8,7 @@ chsh -s zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 # Download zshrc
-wget https://raw.githubusercontent.com/mareksabo/dotfiles/master/.zshrc .zshrc-temp
+wget https://raw.githubusercontent.com/mareksabo/dotfiles/master/.zshrc -O .zshrc-temp
 mv .zshrc-temp .zshrc
 
 # Clone the plugins
