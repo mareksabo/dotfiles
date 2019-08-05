@@ -3,6 +3,7 @@
 # Install zsh
 sudo apt-get install zsh -y
 chsh -s $(which zsh)
+chsh -s $(which zsh) mareksabo || true # workaround with SSH
 
 # Install oh-my-zsh
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
